@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - music is life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+ <!-- font-family: "Kanit", serif;-->
+    <nav>
+        <ul>
+            <li class="brand">< songItemPlayimg src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+    <div class="cointainer">
+         <div class="songlist">
+            <h1>Best Of NCS - No copyright songs</h1>
+         <div class="songitemcointainer">
+            <div class="songitem"><img src="covers/1.jpg" alt="1" id="img1">
+            <span class="songItem">Let me love you</span>
+            <span class="songlistplay"><span class="timestamp">05:34 <i class="fa-solid songItemPlay fa-play"></i></span></span>
+            </div>
+            <div class="songitem"><img src="covers/2.jpg" alt="1" id="img1">
+                <span class="songItem">ceilo - Huma Huma</span>
+                <span class="songlistplay"><span class="timestamp">02:33 <i class="fa-solid songItemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem"><img src="covers/3.jpg" alt="1" id="img1">
+                    <span class="songItem">you knew</span>
+                    <span class="songlistplay"><span class="timestamp">04:34 <i class="fa-solid songItemPlay fa-play"></i></span></span>
+                    </div>
+                    <div class="songitem"><img src="covers/4.jpg" alt="1" id="img1">
+                        <span class="songItem">janji - heroes tonight</span>
+                        <span class="songlistplay"><span class="timestamp">03:28 <i class="fa-solid songItemPlay fa-play"></i></span></span>
+                        </div>
+        </div>
+        </div>
+        <div class="songban"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        
+        <div class="icons">
+            <i class="fa-solid songItemPlay fa-backward"></i>
+            <i class="fa-solid songItemPlay fa-play" id="masterPlay"></i>
+            <i class="fa-solid songItemPlay fa-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt="" width="45px" id="gif">Let me love you - justin beiber
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/725e14c34f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+</body>
+</html>
